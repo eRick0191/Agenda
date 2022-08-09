@@ -1,0 +1,3 @@
+.\keytool -exportcert -list -v -alias androiddebugkey -keystore "C:\Users\c9sne\.android\debug.keystore"
+
+SHA1: 4B:86:3A:C8:48:CB:F7:FE:FD:E6:81:58:D9:43:4B:EE:26:C3:AA:AF
