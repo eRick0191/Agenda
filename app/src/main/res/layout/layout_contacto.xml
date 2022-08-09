@@ -10,14 +10,14 @@
 
     <TextView
         android:id="@+id/lblNombreContacto"
-        android:text="aqui va el nombre"
+        android:text="nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25dp"/>
 
         <TextView
             android:id="@+id/lblTelefonoContacto"
-            android:text="aqui va el telefono"
+            android:text="telefono"
             android:layout_below="@id/lblNombreContacto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

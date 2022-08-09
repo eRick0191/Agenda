@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder alerta = new AlertDialog.Builder(MainActivity.this);
-                alerta.setMessage("¿Desea Salir de la aplicacion?")
+                alerta.setMessage("¿Cerrar la sesion en curso?")
                         .setCancelable(false)
                         .setPositiveButton("Si", new DialogInterface.OnClickListener() {
                             @Override
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             }
                         });
                 AlertDialog titulo = alerta.create();
-                titulo.setTitle("Salir");
+                titulo.setTitle("Cerrar sesión");
                 titulo.show();
             }
         });
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
             }
         }else{
-            Toast.makeText(getApplicationContext(),"Se necesita tener conexion a internet",
+            Toast.makeText(getApplicationContext(),"No hay conexión a internet",
                     Toast.LENGTH_SHORT).show();
         }
     }

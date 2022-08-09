@@ -66,11 +66,11 @@
             android:layout_height="wrap_content"
             android:layout_span="2"
             android:text="@string/notas" />
+
         <EditText
             android:id="@+id/txtNotas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.97"
+            android:layout_width="370dp"
+            android:layout_height="75dp"
             android:ems="10"
             android:inputType="textMultiLine" />
         <CheckBox
@@ -79,27 +79,28 @@
             android:layout_height="wrap_content"
             android:text="@string/favorito" />
         <TableRow >
+
             <Button
                 android:id="@+id/btnLimpiar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="109dp"
+                android:layout_height="50dp"
                 android:text="@string/btn_limpiar" />
             <Button
                 android:id="@+id/btnGuardar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
                 android:text="@string/btn_guardar" />
         </TableRow>
         <Button
             android:id="@+id/btnListar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_listar" />
+            android:text="lista" />
         <Button
             android:id="@+id/btnSalir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salir" />
+            android:text="Cerrar Sesion" />
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

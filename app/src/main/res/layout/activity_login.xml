@@ -5,17 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/lblDisponibles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Inicio de Sesión"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/Email"
         android:layout_width="0dp"
+        android:layout_marginTop="55dp"
         android:layout_height="wrap_content"
-        android:text="Email:"
+        android:text="Correo:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textStyle="bold"
-        android:textColor="@color/black"></TextView>
+        android:textColor="@color/black" />
+
+
 
     <EditText
         android:id="@+id/EditEmail"
@@ -62,8 +74,8 @@
         android:id="@+id/Boton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
-        android:text="Login"
+        android:layout_marginTop="200dp"
+        android:text="Iniciar sesion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,18 +83,6 @@
 
     </Button>
 
-    <Button
-        android:id="@+id/BotonReg"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        android:text="Registrar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </Button>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

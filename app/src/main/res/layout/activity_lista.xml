@@ -27,7 +27,7 @@
             android:layout_below="@id/btnNuevo"
             android:gravity="center"
             android:paddingTop="16dp"
-            android:text="CONTACTOS DISPONIBLES"
+            android:text="Contactos"
             android:textSize="20dp" />
 
         <ListView
